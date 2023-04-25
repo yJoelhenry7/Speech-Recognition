@@ -1,0 +1,61 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #6990F2;
+  }
+  .wrapper{
+    width: 430px;
+    background: #fff;
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow: 7px 7px 12px rgba(0,0,0,0.05);
+  }
+  .wrapper header{
+    color: #6990F2;
+    font-size: 27px;
+    font-weight: 600;
+    text-align: center;
+  }
+  .wrapper form{
+    height: 167px;
+    display: flex;
+    cursor: pointer;
+    /* margin: 30px 0; */
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* border-radius: 5px; */
+    /* border: 2px dashed #6990F2; */
+  }
+  form :where(i){
+    color: #6990F2;
+  }
+  form i{
+    font-size: 50px;
+  }
+  .dash-line {
+      margin-top: 10px;
+      /* display: flex; */
+      border-radius: 5px;
+      border: 2px dashed #6990F2;
+  }
+  .wrapper h1{
+    /* <div id="file-upload-filename"></div> */
+      margin-bottom: 10px;
+  }
+  form h2{
+      color: #5f89f5;
+  }
+  form h3 {
+    background:  #5f89f5;
+    color: white;
+    border-style: outset;
+    border-color:  #6990F2;
+    height: 20px;
+    width: 80px;
+    font: bold 15px ;
+    text-shadow: none;
+  }
+          

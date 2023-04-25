@@ -1,0 +1,4 @@
+To install Pydub
+-pip3 install pydub
+To install scipy.io
+-pip3 install scipy

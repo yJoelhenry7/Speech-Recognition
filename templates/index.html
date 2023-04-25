@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>File Upload</title>
+       <link rel="stylesheet" href="/staticFiles/index.css">
+    </head>
+
+<body  style = "text-align:center">
+    <div class="wrapper">
+        <img src= "{{url_for('static',filename='SER_Image.jpeg')}}"width = 100%>
+        <h1><header>SPEECH EMOTION RECOGNITION</header></h1>
+        <!-- <h2>Upload Wav File</h2> -->
+    <form action = "/uploader" method='POST' enctype='multipart/form-data'>
+        <div class = "dash-line">
+          
+                <label for="file-upload">
+                    <img src="{{url_for('static',filename='upload-icon.png')}}" width = 150px height = 70px/>
+                </label>
+                <input id="file-upload" type="file" name = "file" hidden/>
+
+            <h2> &nbsp; &nbsp;Browse File to Upload  &nbsp;&nbsp;</h2>   
+        </div>
+      <div class="submit">
+        <label for="submit-button">
+            <h3>SUBMIT</h3>
+        </label>
+         <input id = "submit-button" type="submit" hidden>
+    </form>
+    </div>
+</body>
+</html>
